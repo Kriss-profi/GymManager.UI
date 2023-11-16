@@ -1,0 +1,231 @@
+﻿@inject IConfiguration configuration
+
+
+@{
+    var templateKey = configuration.GetSection("TemplateKey").Value;
+    Layout = $"/Views/{templateKey}/Shared/_LayoutMain.cshtml";
+    ViewData["Title"] = "Polityka Prywatności - Według Adama Mickiewicza";
+}
+
+<div class="container">
+    <div class="pt-3 pb-5">
+        <h1>@ViewBag.Title</h1>
+        <h2>Pan Tadeusz - XIII Księga</h2>
+        <p class="pt-3">
+            Pan Tadeusz wszedł pierwszy, drżącymi rękami<br />
+            Drzwi za sobą zamyka, och! Nareszcie sami.<br />
+            Ach! Zosiu, ach Zosieńko, jak mi niewygodnie<br />
+            Popatrz, jak mi odstaje, spójrz no na moje spodnie.<br />
+            Zosia łzy rzewne roni i za pierś się chwyta,<br />
+            Że to była dzieweczka z chłopcem nie obyta,<br />
+            Nie wiedziała zaiste, czy ma się całować<br />
+            Ze swym mężem, czy płakać, czy pod ziemię schować.<br />
+            Stoi tedy i milczy, Tadeusz pomału<br />
+            Jął się przygotowywać do ceremoniału.<br />
+            Od chwili, gdy ich ślubna przywiozła kareta,<br />
+            Tadeusz miał myśl jedną - myśl ta to mineta.<br />
+            (Sztuka wówczas na Litwie nikomu nie znana,<br />
+            Dziś już rozpowszechniona, ale źle widziana<br />
+            Przez strzegące cór swoich sędziwe matrony<br />
+            I księży, którzy nieraz gromią ją z ambony).<br />
+            Tadeusz, że we Francji długie lata bawił,<br />
+            Wielce się w używaniu sztuki onej wprawił,<br />
+            Niezmiernie lizać lubiał, wyrażał mniemanie,<br />
+            Że mineta o wiele przewyższa jebanie,<br />
+            Bo kutas zmysł dotyku zaledwie posiada,<br />
+            Język natomiast smakiem prócz dotyku włada,<br />
+            Poza tym wszystkim zmysły, z wyłączeniem słuchu,<br />
+            Spełniają pewną rolę, kiedy język w ruchu.<br />
+            Na przykład powonienie cipy... Wzrok się raczy<br />
+            Tym, czego ślepy kutas nie zobaczy.<br />
+            Tak myśląc, jął Tadeusz pieścić swoją żonę.<br />
+            Najpierw z galanteryją ucałował dłonie,<br />
+            Potem na łóżku sadza i macając ręką,<br />
+            Dwa cycuszki jak pączki wyczuł pod sukienką,<br />
+            Wziął też do ręki cycuś, a zaraz i drugi,<br />
+            Oba były jednakie, żaden nazbyt długi.<br />
+            I począł je całować - długo pożądliwie,<br />
+            Wreszcie usta oderwał i, w nagłym porywie,<br />
+            Suknię swej lubej Zosi zarzucił na głowę,<br />
+            ściągnął na dół majteczki, śliczne, koronkowe,<br />
+            Dar ciotki Telimeny, ku nóżkom się schylił,<br />
+            Najpierw na nie popatrzał, potem je rozchylił,<br />
+            Całując pożądliwie od wewnętrznej strony,<br />
+            Aż Zosia zapomniała zupełnie obrony<br />
+            I dziewicze opory zaraz odrzuciła,<br />
+            Bo Zosia chociaż młoda, ale dziewką była.<br />
+            I chowając w poduszki, zawstydzone lice,<br />
+            Pokazała mężowi całą tajemnicę,<br />
+            Co ukryta głęboko wśród złocistych włosów<br />
+            Różowiała niewinnie, jak kwiatek wśród kłosów.<br />
+            <br />
+            Tadeusz po mistrzowsku rozpoczął minetę,<br />
+            Najpierw lizał po wierzchu, rozpalał kobietę.<br />
+            Jęła więc Zosia wzdychać, jęczeć, wreszcie krzyczeć.<br />
+            Tadeusz rad jej więcej rozkoszy użyczyć,<br />
+            Wsadził głębiej, językiem jak młynkiem obracał,<br />
+            Rękami Zosię z góry aż do dołu macał,<br />
+            Przy tym ruchliwy język coraz głębiej wtykał,<br />
+            Krztusił się, dławił, ślinę i włosy połykał,<br />
+            Obracając językiem coraz żwawiej, głodniej,<br />
+            Wreszcie zajęczał lekko i spuścił się w... spodnie.<br />
+            Chwilę poleżał cicho i odpoczął trochę,<br />
+            tuląc nos oraz usta w zawisłą piździochę.<br />
+            Wreszcie podniósł się z łoża, odszedł od Zosieńki<br />
+            I z lekka, ocierając wąsy grzbietem ręki,<br />
+            Jął się żywo rozbierać. Zdjął pas z kutasami,<br />
+            ściągnął kontusz i żupan, buty z cholewami,<br />
+            Koszulę zdjął przez głowę, hajdawery złożył,<br />
+            A gacie przemoczone na krześle położył.<br />
+            Wreszcie usiadł na łożu, odsapnął troszeczkę,<br />
+            Po jajach się pogłaskał, spojrzał na żoneczkę:<br />
+            Suknia na twarz rzucona zasłoniła lice,<br />
+            Odsłaniając cycuszki, pępuszek i picę.<br />
+            Widok ten znów krew wzburzył w panu Tadeuszu,<br />
+            Choć się dopiero spuścił, nabrał animuszu.<br />
+            Jął rozbierać żoneczkę, sposobić posłanie,<br />
+            By tymczasem poczekać, aż mu kutas stanie.<br />
+            <br />
+            Zosia zaś odrzuciwszy już wstydliwość wszelką<br />
+            Na chuja spoglądała z ciekawością wielką,<br />
+            Bo dotychczas o chuju niewiele wiedziała -<br />
+            Raz od dziewek służebnych coś tam usłyszała,<br />
+            Drugi raz, leżąc w gaju rankiem, w cieniu drzewa,<br />
+            Zobaczyła przypadkiem, jak się chłop odlewa,<br />
+            W grubej garści trzymając jakiś przedmiot wielki,<br />
+            Strząsnął na świeżą zieleń złociste kropelki.<br />
+            Choć ciocia Telimena już jej tłumaczyła,<br />
+            Lecz Zosia nie słuchała, strasznie się wstydziła.<br />
+            A teraz, żoną będąc, dziewczątko uznało,<br />
+            Że święty obowiązek zbadać sprawę całą,<br />
+            Więc pyta się: co to jest? i do czego służy?<br />
+            Przed chwilą taki mały, teraz taki duży,<br />
+            O! a jak się rozciągnął i jak się rozwija,<br />
+            Długi taki i gładki, niczym gęsia szyja.<br />
+            A cóż go też od spodu tak ładnie przystraja?<br />
+            Rzekł Tadeusz z powagą: Zosiu, to są jaja.<br />
+            To zaś, co cię w tak wielkie wprawiło zdumienie,<br />
+            Obyczajnie nazywać trzeba - przyrodzenie.<br />
+            Kutasem także zwane, chociaż częściej bywa,<br />
+            Że chłopstwo i pospólstwo chujem go nazywa.<br />
+            Ręka, głowa czy noga jedną nazwę mają<br />
+            Ten zaś niewielki wiecheć ludzie określają<br />
+            Tak dziwacznymi nazwy. Sędzia nieraz zrzędzi,<br />
+            Że jak się robi ciepło, to go kuśka swędzi.<br />
+            Podkomorzy zaś wałem kutasa nazywa,<br />
+            A Wojski zaganiaczem go nieraz przezywa,<br />
+            Maciek mówi wisielec, bo już stać nie zdoła,<br />
+            A Gerwazy na chłopskie dzieci nieraz woła:<br />
+            Nie baw się Wojtuś ptaszkiem. Jankiel cymbalista<br />
+            Zwie go smokiem lub bucem, i rzecz oczywista<br />
+            Jeszcze dziwniejsze nazwy ludzie wymyślają,<br />
+            Ułani go na przykład pytą nazywają.<br />
+            Za to uczeni w piśmie, penis - określają.<br />
+            Tak wyjaśniał Tadeusz te sprawy powoli,<br />
+            Chcąc tymczasem pokazać, jak kutas pierdoli.<br />
+            I chcąc naukę poprzeć stosownym przykładem<br />
+            Zaczął wpychać... daremnie, chociaż ruszał zadem.<br />
+            Zasapał się, zapocił, chuj się nie zagłębiał,<br />
+            Zdumiał się tedy młodzian i zwyczajnie zdębiał.<br />
+            Prując dotychczas kurwy w francuskiej stolicy,<br />
+            Nie miał nigdy trudności z włożeniem do piczy,<br />
+            Ta widocznie nie znała kutasa żadnego,<br />
+            Więc gdzieżby mógł się zmieścić taki chuj jak jego.<br />
+            Bo nie było podówczas pośród wszystkich ludzi,<br />
+            Ani w Polszcze, ni w Litwie, ni na świętej Żmudzi,<br />
+            Ani wśród drobne szlachty, ni wielkich dziedziców,<br />
+            Ani wśród Horeszków, ani wśród Sopliców,<br />
+            Ani wśród Radziwiłłów książąt przepotężnych,<br />
+            Ani wśród Dobrzyńskich, znakomitych mężnych,<br />
+            Ni wśród Bartków i Maćków braci doborowej,<br />
+            Ni wśród całej rozlicznej szlachty zaściankowej,<br />
+            Nikogo, kto by chuja takiego posiadał.<br />
+            Dumny zeń był Tadeusz i dzielnie nim władał.<br />
+            A do dumy takowej miał słuszne powody,<br />
+            Bo na chuju mógł podnieść pełne wiadro wody.<br />
+            Chuj Tadeusza mierzył jedenaście cali,<br />
+            Gruby jak ręka w kiści, twardy jak ze stali,<br />
+            Zahartowany w trudzie, co rzadko się kładzie<br />
+            Zdobny w dwa wielkie jaja, jak dwa jabłka w sadzie.<br />
+            Jeden tylko Gerwazy za czasów młodości.<br />
+            Słynął również z kutasa podobnej wielkości.<br />
+            I dziś jeszcze żartując, szlachta się pytała,<br />
+            Co ma większe Gerwazy, Scyzoryk czy wała.<br />
+            Otóż tego to chuja chciał Tadeusz Zosi<br />
+            Na siłę wepchnąć, ona śmiechem się zanosi<br />
+            Zosieńka, tak się bawi, śmieje do rozpuku<br />
+            I jak dziecinka woła: a kuku, a kuku.<br />
+            Nagle, schwyciwszy zręcznie kutasa do ręki,<br />
+            Zanuciła przekornie słowa tej piosenki:<br />
+            Do dziury myszko, do dziury,<br />
+            Bo cię tam złapie kot bury,<br />
+            A jak cię złapie w pazurki<br />
+            To cię obedrze ze skórki.<br />
+            Myszko? - zakrzyknie młodzian A cóż to za myśl dzika<br />
+            Przezywać tu od myszek tego rozbójnika.<br />
+            Jak ci myszkę pokażę, zaraz pożałujesz,<br />
+            Do dziury ją zapędzasz? zaraz ją poczujesz.<br />
+            To mówiąc powstał z łóżka i wyszedł z pokoju<br />
+            Do przedsionka, gdzie stała beczka pełna łoju,<br />
+            Pełną ręką zaczerpnął, przetłuścił kutasa,<br />
+            Że się błyszczał jak wielka, czerwona kiełbasa.<br />
+            Co na Wielkanoc wisi na sznurze w komorze.<br />
+            Do pokoju powrócił, zaraz legł na łoże,<br />
+            Pomacał dziurkę ręką, palcami poszerzył,<br />
+            Przytknął równo kutasa, popchnął i uderzył,<br />
+            Rozwarły się podwoje, coś tam z cicha trzasło<br />
+            I wjechał kutas w pizdę, jak nóż wjeżdża w masło.<br />
+            Zabolało Zosieńkę, aż się popłakała,<br />
+            Rączęta załamując gwałtownie krzyczała:<br />
+            Wyjm pan, wyjm to natychmiast, to okropnie boli!<br />
+            Tadeusz jej nie słucha, lecz jebie powoli,<br />
+            Ręce pod pupkę włożył i mocno je złączył,<br />
+            Dymał, rąbał, chędożył, aż nareszcie skończył.<br />
+            Pięć razy tę zabawę radosną powtórzył,<br />
+            Pięć razy też się spuścił, aż się w końcu znużył.<br />
+            Żonę na bok odrzucił niby sprzęt zużyty,<br />
+            Lecz kutas jeszcze sterczał, wielki, chociaż syty.<br />
+            Wnet też świtać poczęło, Tadeusz zmęczony,<br />
+            Jak na męża przystało, legł dupą do żony.<br />
+            Kołdrę na grzbiet naciągnął, po jajach się podrapał,<br />
+            Twarz do ściany obrócił i głośno zachrapał.<br />
+            <br />
+            Ale Zosieńka nie śpi, leżąc na posłaniu,<br />
+            Oczęta ma otwarte, ni myśli o spaniu.<br />
+            Przedtem, dziewicą będąc, tak strasznie się bała,<br />
+            Lecz teraz gdy poznała, to by jeszcze chciała,<br />
+            Chce obudzić małżonka, lecz Tadeusz chrapie,<br />
+            Tuli się więc do niego, za kutasa łapie,<br />
+            Do góry go uniosła, palcami ujęła,<br />
+            Wreszcie główkę schyliła i do buzi wzięła.<br />
+            Jak dziecię przez cumelek ssie z butelki mleko,<br />
+            Tak Zosia Tadeusza drażni tą minetą.<br />
+            I chociaż nie wprawiona, wcale się nie dławi...<br />
+            Zbudził się tedy młodzian i z uśmiechem prawi:<br />
+            Mówił kapitan Rykow, ja powtarzam pięknie,<br />
+            Baby chujem nie straszcie, bo się go nie zlęknie.<br />
+            Póki chuj opadnięty, to się baba boi,<br />
+            Ale weź go na język, a od razu stoi.<br />
+            I mówią, że Suworow rzekł raz: Mili moi,<br />
+            U największych rycerzy chuj się baby boi.<br />
+            Lecz chciałem ci przypomnieć, bez twojej urazy,<br />
+            Żem się tej nocy spuścił równo sześć razy.<br />
+            Trzeba chuja oszczędzać, pozwól mu odsapnąć,<br />
+            Mogę ci, jeśli pragniesz, znów minetę chlapnąć,<br />
+            Lecz lepiej daj mu spocząć, później znów kochanie<br />
+            Weź go znowu do buzi, a na pewno stanie.<br />
+            I wówczas ci pokażę figle rozmaite,<br />
+            Które to figle kształcą i piczę i pytę:<br />
+            Przed lustrem, na siedząco, albo na stojaka,<br />
+            Lub też konno na chuju, na boku, na raka,<br />
+            A można między cycki, lub też na podnietę,<br />
+            Nie zaszkodzi wykonać podwójną minetę,<br />
+            Jeśli wiesz, co to znaczy... Lecz Zosiu kochana<br />
+            Zanim się zabawimy, zaczekaj do rana.<br />
+            A gdy tak do niej mówił oczęta przymknęła<br />
+            I tuląc się do męża cichutko zasnęła.<br />
+            I śniła o niezmiernych rozkoszach zamęścia,<br />
+            Których zazna przez lata małżeńskiego szczęścia.<br />
+        </p>
+    </div>
+</div>
